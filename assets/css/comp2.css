@@ -1,0 +1,108 @@
+.car {
+  padding: 20px 20px 100px 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+.car li {
+  display: inline-block;
+  width: 480px;
+  height: 400px;
+  margin-left: -38px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  position: relative;
+}
+.car figure {
+  margin: 0;
+  position: relative;
+}
+
+.car figure img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  width: 480px;
+  height: 400px;
+}
+
+  .car figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #2c3f52;
+    color: #ed4e6e;
+  }
+
+  .car figcaption h4 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 1em;
+  }
+
+  .car figcaption span:before {
+    content: 'by ';
+  }
+
+  .car figcaption a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #ed4e6e;
+    color: #fff;
+  }
+.car figure #ig2 {
+  margin-top: -9px;
+}
+.car figure #ig3 {
+  margin-top: -18px;
+}
+.car figure #ig4 {
+  margin-top: -27px;
+}
+
+.c-style-6 figure img {
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.no-touch .c-style-6 figure:hover img,
+.c-style-6 figure.c-hover img {
+  -webkit-transform: translateY(-30px) scale(0.7);
+  -moz-transform: translateY(-30px) scale(0.7);
+  -ms-transform: translateY(-30px) scale(0.7);
+  transform: translateY(-30px) scale(0.7);
+}
+
+.c-style-6 figcaption {
+  height: 100%;
+  width: 100%;
+}
+
+.c-style-6 figcaption h3 {
+  margin-top: 60%;
+}
+
+.c-style-6 figcaption a {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+@media screen and (max-width: 31.5em) {
+  .car {
+    padding: 10px 10px 100px 10px;
+  }
+  .car li {
+    width: 100%;
+    min-width: 300px;
+  }
+}
